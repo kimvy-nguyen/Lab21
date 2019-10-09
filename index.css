@@ -1,0 +1,71 @@
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #cc0000;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Arial";
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    font-family: "Arial";
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #ff5050;
+    color: white;
+    font-family: "Arial";
+  }
+
+  p{
+    font-family: "Arial";
+  }
+
+  h1,h2,h3,h4,h5{
+      font-family: "Arial";
+      text-align: center;
+  
+  }
+  h3,h4,h5{
+    font-size: 20px;
+    color: #999966;
+  }
+
+  img{
+      border-radius: 50%;
+  }
+  body, html {
+    height: 100%;
+}
+
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000000;
+}
+
+
+
+  
+
+  /*body{
+      background-image: url("background2.png");
+  }*/
