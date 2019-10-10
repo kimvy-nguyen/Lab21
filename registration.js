@@ -1,0 +1,1 @@
+var firstName = document.getElementsByName("firstname")[0].value;
